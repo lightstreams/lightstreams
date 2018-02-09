@@ -5,11 +5,11 @@ By <a href="https://mikesmo.github.io/">Michael Smolenski</a>
 
 # Introduction
 
-This white paper outlines plans to develop the [Lightstreams network](http://lightstreams.network)[[2]](http://lightstreams.io/), a peer-to-peer digital publishing network for content ranging from books, magazines, music, TV to movies.
+This white paper outlines plans by Autonomous Contracts [[1]](http://autocontracts.io/) to develop the Lightstreams Network [[2]](http://lightstreams.io/), a peer-to-peer digital publishing network for content ranging from books, magazines, music, TV to movies.
 
-The Lightstreams network is a blockchain network that enables artists to publish digital content directly to consumers, replacing traditional online intermediaries including Amazon, Spotify or Netflix. Artists being musicians, authors, directors and any other digital content curator.
+The Lightstreams network is a blockchain network that enables artists to publish digital content directly to consumers, replacing existing online distribution channels. In the Lightstreams context, artists are musicians, songwriters, composers, authors, directors and any other digital content curator.
 
-The music streaming industry is a $16Bn market, on-demand video is $24Bn and the e-Books industry is $15Bn. These are healthy growing markets with growth rates between 6% to 15%. However, we believe these markets are open to disruption by the intersection of peer-to-peer file sharing and blockchain technology. This combination opens up the possibility for people to buy and sell content directly between one another.
+The music streaming industry is a $16Bn market[[3]](http://www.ifpi.org/global-statistics.php), on-demand video is $24Bn[[4]](https://www.statista.com/download/outlook/whiterpaper/VideoOnDemand_Outlook_1016.pdf) and the e-Books industry is $15Bn[[5]](https://www.statista.com/statistics/280249/global-e-book-revenue-by-region/). These are healthy growing markets with growth rates between 6% to 15%. However, we believe these markets are open to disruption by the intersection of peer-to-peer file sharing and blockchain technology. This combination opens up the possibility for people to buy and sell content directly between one another.
 <p align="center">
 <img src="/images/peer-to-peer-sales.png">
 <br>
@@ -18,7 +18,7 @@ The music streaming industry is a $16Bn market, on-demand video is $24Bn and the
 <br>
 
 Most artists are fundamentally not happy with how the online digital content industry has evolved to leave them with a bad deal and with little control to do anything about it. 
-- <b>High Fees</B> — Intermediaries take up to 70% of sales.
+- <b>High Fees</B> — Intermediaries take between 50 - 70% of sales revenue.
 - <b>Lack of Transparency & Trust</b> — No access to raw sales figures. Intermediaries have been shown to incorrectly pay attribution and royalties fees.
 - <b>Limited Access to Funding</b> — New artists find it difficult to find investment.
 - <b>Fake Reviews & Impressions</b> — It is difficult to gauge who are genuine consumers of content versus bots.
@@ -28,13 +28,13 @@ The primary aims of the Lightstreams project are to:
 - Create a community controlled network where curators of digital content benefit from its success.
 - Design an open protocol that allows services to be built on top of the Lightstreams protocol stack to provide the best experience for network participants.
 
-Lightstreams will be made possible through the new generation of Web 3.0 technology[[3]](https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/) built upon blockchain and smart contract technology[[4]](https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts/). Blockchain technology that includes the award-winning Permissioned Blocks protocol already developed by the Lightstreams team. [[5]](https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html) [[6]](https://github.com/autocontracts/permissioned-blocks) 
+Lightstreams will be made possible through the new generation of Web 3.0 technology[[6]](https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/) built upon blockchain and smart contract technology[[7]](https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts/). Blockchain technology that includes the award-winning Permissioned Blocks protocol already developed by the Lightstreams team. [[8]](https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html) [[9]](https://github.com/autocontracts/permissioned-blocks) 
 
-The Lightstream network will be an Ethereum-compliant network and as such will have smart contract capabilities along with a digital token known as a Photon token. The primary utility value of the token will be through the facilitation of purchasing digital content.
+The Lightstream network will be an Ethereum-compliant network and as such will have smart contract capabilities along with a digital token known as a Photon (PHT) token. The primary utility value of the token will be through the facilitation of purchasing digital content.
 
 # Mission Statement
 
-Lightstreams’ mission is to give freedom back to artists so that they are ultimately in control of their content and not at the mercy of record labels, production companies, publishing houses and other intermediaries. A network owned and regulated by the community, where artists and fans can connect in a low cost, fair and open marketplace.
+Lightstreams’ mission is to give freedom back to artists so that they are ultimately in control of their content and not at the mercy of record labels, production companies, publishing houses and other intermediaries. Lightstreams is a network that is owned and regulated by the community, where artists and fans can connect in a low cost, fair and open marketplace.
 
 # Content Publishing Problems
 
@@ -43,8 +43,8 @@ Lightstreams has identified the following pain points for artists selling conten
 ## High Fees
 
 High fees for using online sales channels mean artists receive 50-70% less revenue for content than if they were able to sell directly to the consumer.
-For example, a book valued at $9.99 sold on Amazon, has the following fees[[9]](https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B):
-1. For a standard sale, an approximate 48% fee is charged; this comprises a 30% platform fee plus and an electronic delivery fee of $2.58. [[10]](http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/)
+For example, a book valued at $9.99 sold on Amazon, has the following fees[[10]](https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B):
+1. For a standard sale, an approximate 48% fee is charged; this comprises a 30% platform fee plus and an electronic delivery fee of $2.58. [[11]](http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/)
 2. For a subscription sale, an approximate 50% fee is charged. This is calculated using the subscription fee structure, where the author receives $0.00496 per page read, with a max payout of $5.00 for a 1000 page book. 
 
 ## Lack of Transparency and Trust
@@ -53,24 +53,24 @@ Intermediaries control the ownership, custody and storage of customer informatio
 
 The opaque data provenance creates a lack of trust in the accuracy of the data provided and there has been in certain cases legal action over incorrect sales reporting. Also, non-standard calculation of sales between intermediaries creates confusion and frustration.
 
-- Spotify settled a $20 million dispute with music publishers for the failure to report and pay licensing fees for distribution of copyrighted material. [[14]](https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html)
-- RootZoo sues Facebook for overcharging of advertising fees by incorrectly reporting on advertisement clicks. [[15]](http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220)
-- Amazon apologizes for concerns raised about Kindle Edition Normalized Page Count (KENPC)[[11]](https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ) anomalies. [[12]](https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/) 
-- AgeView Press filed a complaint about incorrect sales reporting for an ebook published titled "Flying Solo" on Amazon's Kindle Direct via the Createspace e-store. [[13]]( https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/)
+- Spotify settled a $20 million dispute with music publishers for the failure to report and pay licensing fees for distribution of copyrighted material. [[12]](https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html)
+- RootZoo sues Facebook for overcharging of advertising fees by incorrectly reporting on advertisement clicks. [[13]](http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220)
+- Amazon apologizes for concerns raised about Kindle Edition Normalized Page Count (KENPC)[[14]](https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ) anomalies. [[15]](https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/) 
+- AgeView Press filed a complaint about incorrect sales reporting for an ebook published titled "Flying Solo" on Amazon's Kindle Direct via the Createspace e-store. [[16]]( https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/)
 
 ## Fake Reviews and Impressions
 
 Most online sites provide open review sections for posting comments about content. This, however, is open to abuse by fake reviewers that are not genuine content consumers who post comments either in favour or not in favour of the material for various motives. 
 For example, within the e-book industry there are third party services that can be hired to write positive endorsements about books to progress them further up best selling lists. In some cases, it has been known that authors themselves have written favourably about their books and negative of others to create an unfair advantage.
 
-- Orlando Figes, a respected history professor at Birkbeck, University of London was discovered to have posted fake reviews on Amazon lavishing high praise on his own book whilst posting critical reviews of others. [[16]](https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews)
+- Orlando Figes, a respected history professor at Birkbeck, University of London was discovered to have posted fake reviews on Amazon lavishing high praise on his own book whilst posting critical reviews of others. [[17]](https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews)
 
 In terms audio or video content, there are bots that are used to increase the number of viewing impressions in order appear more popular and thus more attractive to advertisers to pay for advertising slots.
 
 ## Limited Access to Funding
 
 Investment in new artists typically comes from investment channels like record labels, production companies or publishing houses. However, it can be difficult for the average artist to tap into these channels.
-Artists today also utilise CrowdFunding websites for raising funds, however these are typically through the goodwill of the public through donations. 
+Artists could utilise CrowdFunding websites for raising funds, however these are typically through the goodwill of the public through donations. 
 
 On the investor side either the risk-reward is not right to invest in most artists or the complexity of tracking sales and distributing profits is not considered viable. 
 The lack of a standardised marketplace for investing in artists generally means many simply miss out on the opportunity to pursue their dreams.
@@ -90,7 +90,6 @@ Content producers can select the sales model from their preference of:
 - <b>Pay-per-view</b> - A one-off payment to rent video content. 
 - <b>Licensed</b> - A licensed purchase of the content. 
 - <b>Subscription</b> - A monthly fee for access to a category of content.
-- <b>Advertisement</b> - Free access to content with revenue generated by advertising.
 
 ## In-depth Customer and Sales Data
 
@@ -110,13 +109,6 @@ An Impression rating for the popularity of content will be on sales and an atten
 - <b>Audio</b> - The length of time listening to a track.
 - <b>Video</b> - The length of time viewing a content.
 
-## Revenue Sharing Scheme
-
-Content producers will have the option to allocate sales revenues to investors who have funded the creation of their works. This mechanism will be automatically governed by smart contracts such that revenue is dispersed instantly and according to the terms of the agreement negotiated between the producers and investors. 
-
-This smart contract mechanism will provide a more efficient and transparent model over today’s accounting systems where it can take up to three months from the time content is streamed to when investors and artists are paid.
-
-By having a more efficient and transparent allocation of revenue will open up the possibility for micro-investments. Investors can diversify their portfolios and a greater amount of artists will be able to access funding.
 
 # Content Distribution
 
@@ -131,7 +123,7 @@ In today’s online distribution model, intermediaries provide the channel for p
 </p>
 <br>
 
-Lightstream believes that by employing a peer-to-peer file sharing model[[7]](https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing), the existing business model can be disrupted. Instead of relying on a centralised entity to provide the infrastructure for distribution, network participants themselves will provide the necessary infrastructure to scale.
+Lightstream believes that by employing a peer-to-peer file sharing model[[18]](https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing), the existing business model can be disrupted. Instead of relying on a centralised entity to provide the infrastructure for distribution, network participants themselves will provide the necessary infrastructure to scale.
 
 Peer-to-peer file sharing technology, like BitTorrent, has been established for some time with many global users. However, these peer-to-peer file sharing technologies tend to be used for sharing content illegally by infringing on the copyright by duplicating the material without permission of the owners. These networks also rely on the goodwill of the participants to provide digital storage and transmission bandwidth of the content. No incentive system has been put in place along with formal agreements to permit the duplication of content.
 
@@ -149,7 +141,7 @@ If demand is insufficient to support the self-sustaining distribution of content
 
 ## Audio and Video Streaming 
 
-The Lightstreams network is capable of music and video streaming currently via an IPFS[[8]](https://ipfs.io/) protocol layer, a proven peer-to-peer file distribution technology for streaming content. 
+The Lightstreams network is capable of music and video streaming currently via an IPFS[[19]](https://ipfs.io/) protocol layer, a proven peer-to-peer file distribution technology for streaming content. 
 
 We are also doing research and development into employing Ethereum’s SWARM technology.
 Multiplexing services like LivePeer can plug into the Lightreams technology stack to provide Transcoding services so that content can be consumed in the target format.
@@ -170,7 +162,7 @@ The utility of the PHT token will be for:
 2. Rewarding users for giving quality reviews of content.
 3. Governance of the network, where voting power is based on sales revenue
 
-Unlike the Ethereum network, there will be no token rewards given miners, for solving a Proof of Work (PoW) consensus algorithm[[17]](https://github.com/ethereum/wiki/wiki/Mining). This is because Lightstream will instead use a Proof of Authority (PoA) consensus algorithm[[18]](https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake).
+Unlike the Ethereum network, there will be no token rewards given miners, for solving a Proof of Work (PoW) consensus algorithm[[20]](https://github.com/ethereum/wiki/wiki/Mining). This is because Lightstream will instead use a Proof of Authority (PoA) consensus algorithm[[21]](https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake).
 
 By employing a PoA blockchain configuration will result in a highly scalable network that has an order of magnitude in transaction throughput over using the Ethereum network, and will allow for the implementation of a unique governance system.
 
@@ -235,10 +227,8 @@ Consumers who pay the subscription fee gain unlimited access to content within t
 
 At the end of each month the total PHT tokens collected for the month per category will be distributed to the contract owners less the Lightstreams service fee. The tokens will be divided and distributed by the ratio of pages accessed per book. If a book has more than 1000 pages, then the number of pages for calculation purposes is capped to a 1000 pages.
 
-## Advertising Model
-TODO...
 
-# Blockchain Architecture
+# Architecture
 
 The Lightstreams blockchain will be an Ethereum compliant network operating as an independent chain with the following features:
 
@@ -252,16 +242,6 @@ The Lightstreams blockchain will be an Ethereum compliant network operating as a
 <br>
 <b>Lightstreams Architecture</b> - A high level architecture overview.
 </p>
-
-# Lightstreams Software Development
-
-It is planned that key Lightstreams’ software will be released and governed by an open source license agreement. Key functional improvements will be specified via community proposals that are also voted on by the community. 
-
-Development of features will be undertaken by both open source development and core developers of the Lightstream team. The Lightstream client will be initially developed for two target categories; desktop and mobile devices.
-
-Desktop clients will contain the full feature set of the Lightstreams client. It is envisioned the primary use of the desktop client will be for content producers to add and manage their digital content. However, consumers may also prefer to use this client to access content.
-
-The mobile version will be a light client version that will be optimised for tablet and mobile phone devices. Due to network bandwidth and processing constraints not all features will be available on this version.
 
 ## Discovery Service
 
@@ -280,17 +260,27 @@ A listing fee will be charged for publishing the book on the marketplace. The fe
 
 ## Validators
 
-Since the Lightstreams is a peer to peer network, consensus is required between nodes to determine the valid state of the network. Standard Ethereum uses a Proof-of-Work(PoW) algorithm to achieve consensus. However, PoW does not scale well, with transaction throughputs of ~10 transactions per second. Lightstream will instead use a Proof-of-Authority (PoA) algorithm where a set of "validator" nodes that are explicitly allowed to create new blocks and secure the blockchain. Using a PoA algorithm like Tendermint[[19]](https://tendermint.com/) will allow for an order of magnitude increase in scalability ~10,000 transactions per second while also allowing for a governance model for chain maintenance and keep the block issuers accountable.
+Since the Lightstreams is a peer to peer network, consensus is required between nodes to determine the valid state of the network. Standard Ethereum uses a Proof-of-Work(PoW) algorithm to achieve consensus. However, PoW does not scale well, with transaction throughputs of ~10 transactions per second. Lightstream will instead use a Proof-of-Authority (PoA) algorithm where a set of "validator" nodes that are explicitly allowed to create new blocks and secure the blockchain. Using a PoA algorithm like Tendermint[[12]](https://tendermint.com/) will allow for an order of magnitude increase in scalability ~10,000 transactions per second while also allowing for a governance model for chain maintenance and keep the block issuers accountable.
 
 Validators do not charge a fee for validating transactions. Instead, validators are incentivised by having a stake in the successful operation of the network. Therefore, validators will be selected by those participants that maintain the highest sales volumes.
 
 To protect the network from malicious smart contracts being published, validators will only permit Lightstreams' contracts to be added to the blockchain. The Lightstreams' contracts will be multi-signature contract templates, where both the author and the Lightstreams Foundation need to sign the contract. The Lightstreams Foundation will only sign valid smart contracts.
 
+# Software Development
+
+It is planned that certain Lightstreams’ software layers will be released and governed by an open source license agreement. Key functional improvements will be specified via community proposals that are also voted on by the community. 
+
+Development of features will be undertaken by both open source development and core developers of the Lightstream team. The Lightstream client will be initially developed for two target categories; desktop and mobile devices.
+
+Desktop clients will contain the full feature set of the Lightstreams client. It is envisioned the primary use of the desktop client will be for content producers to add and manage their digital content. However, consumers may also prefer to use this client to access content.
+
+The mobile version will be a light client version that will be optimised for tablet and mobile phone devices. Due to network bandwidth and processing constraints not all features will be available on this version.
+
 # Governance
 
-Authors with the highest number of sales above a certain threshold per year and per subject category will be invited to become network validators. 
+Artists with the highest number of sales above a certain threshold per year and per subject category will be invited to become network validators. 
 
-Note: Authors may outsource the operational aspects of being a validator whilst retaining control and oversight. 
+Note: Artists may outsource the operational aspects of being a validator whilst retaining control and oversight. 
 Network validators have the responsibility to:
 
 1. To inspect network transactions to ensure they are valid, and then broadcast these valid transactions in blocks to the rest of the network.
@@ -307,10 +297,10 @@ Lightstreams has already finished its prototyping phase and plans to launch the 
 |---------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Prototype                 | Completed | The prototype of using the Permissions Blocks protocol for content publishing has already been completed and demonstrated and won an award in May 2017 at the Consensus Hackathon 2017. In October 2017 the Test Network was launched with the first prototype of purchasing digital content. |
 | Network launch            | Q2 2018   | It is planned the network will launch in early 2018. A major fundraising event will occur prior to launch of the platform where the sale of PHT tokens will occur, and customers will be shortly soon after be able to purchase digital content sold on the network by content producers.     |
-| Desktop client MVP        | Q2 2018   | The Minimal Viable Product version of the Lightstreams Desktop Client will be available for download. This will have a minimum function set for selling and purchasing of digital content.                                                                                                    |
-| Desktop client v1         | Q3 2018   | Version 1 of the Lightstreams Desktop Client will be available for download, which will have a more comprehensive function set.                                                                                                                                                               |
-| Discovery Service         | Q3 2018   | The Lightstreams Discovery Service will be launched which will better assist users to search and browse for content.                                                                                                                                                                          |
-| Mobile client v1          | Q4 2018   | The Lightstream Mobile Client will be launched where customers can install an app on their tablet or mobile for reading content.                                                                                                                                                              |
+| Desktop client MVP        | Q3 2018   | The Minimal Viable Product version of the Lightstreams Desktop Client will be available for download. This will have a minimum function set for selling and purchasing of digital content.                                                                                                    |
+| Desktop client v1         | Q4 2018   | Version 1 of the Lightstreams Desktop Client will be available for download, which will have a more comprehensive function set.                                                                                                                                                               |
+| Discovery Service         | Q1 2019   | The Lightstreams Discovery Service will be launched which will better assist users to search and browse for content.                                                                                                                                                                          |
+| Mobile client v1          | Q1 2019   | The Lightstream Mobile Client will be launched where customers can install an app on their tablet or mobile for reading content.                                                                                                                                                              |
 # More resources
 - [Lighstreams website](http://lightstreams.network)
 - [Telegram group](https://t.me/joinchat/DZfAhw2IZSYcQchG3DPWaQ)
@@ -321,27 +311,24 @@ Lightstreams has already finished its prototyping phase and plans to launch the 
 
 - [[1]](http://autocontracts.io/) Autonomous Contracts http://autocontracts.io/
 - [[2]](http://lightstreams.io/) The Lightstream Network http://lightstreams.io/
-- [[3]](https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/) Blockchain will Build Wedb 3.0, Jamie Burke https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/
-- [[4]](https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts/) "A Gentle Introduction to Smart Contracts" by Antony Lewis https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts
-- [[5]](https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html) Permissioned Blocks - Hackathon Win! Consensus 2017 https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html
-- [[6]](https://github.com/autocontracts/permissioned-blocks) Permissioned Blocks White Paper https://github.com/autocontracts/permissioned-blocks
-- [[7]](https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing) Wikipedia: Peer-to-peer file sharing https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing
-- [[8]](https://ipfs.io/) IPFS - A peer-to-peer hypermedia protocol https://ipfs.io/
-- [[9]](https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B) Amazon Kindle Direct Publishing Fees https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B
-- [[10]](http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/) Amazon’s markup of digital delivery to indie authors is ~129,000% by Andrew Hyde http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/
-- [[11]](https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ) Royalties in Kindle Unlimited and Kindle Owners' Lending Library https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ
-- [[12]](https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/) Amazon KDP Select authors are losing page reads, apparently due to software glitches by David VanDyke https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/
-- [[13]](https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/) Do Amazon and Createspace rip off Indie publishers with failure to correctly report sales? https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/
-- [[14]](https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html) Spotify Reaches Settlement With Publishers in Licensing Dispute, New York Time March 17, 2016 https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html
-- [[15]](http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220) RootZoo sues Facebook over ad click dispute http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220
-- [[16]](https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews) Historian Orlando Figes agrees to pay damages for fake reviews https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews
-- [[17]](https://github.com/ethereum/wiki/wiki/Mining) Ethereum Mining https://github.com/ethereum/wiki/wiki/Mining
-- [[18]](https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake) Why Blockchain Needs ‘Proof of Authority’ Instead of ‘Proof of Stake’ https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake 
-- [[19]](https://tendermint.com/) Tendermint - Byzantine fault-tolerant replicated state machines in any programming language https://tendermint.com/
+- [[3]](http://www.ifpi.org/global-statistics.php) IFPI - Global Statistics http://www.ifpi.org/global-statistics.php
+- [[4]](https://www.statista.com/download/outlook/whiterpaper/VideoOnDemand_Outlook_1016.pdf) Digital Media: Video-on-Demand, Statista https://www.statista.com/download/outlook/whiterpaper/VideoOnDemand_Outlook_1016.pdf
+- [[5]](https://www.statista.com/statistics/280249/global-e-book-revenue-by-region/) Global e-Book Revenue by Region, Statista https://www.statista.com/statistics/280249/global-e-book-revenue-by-region/
+- [[6]](https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/) Blockchain will Build Wedb 3.0, Jamie Burke https://nextconf.eu/2016/09/next16-blockchain-will-build-web-3-0-says-jamie-burke/
+- [[7]](https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts/) "A Gentle Introduction to Smart Contracts" by Antony Lewis https://bitsonblocks.net/2016/02/01/a-gentle-introduction-to-smart-contracts
+- [[8]](https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html) Permissioned Blocks - Hackathon Win! Consensus 2017 https://mikesmo.github.io/blog/2017/06/09/Consensus-hackathon.html
+- [[9]](https://github.com/autocontracts/permissioned-blocks) Permissioned Blocks White Paper https://github.com/autocontracts/permissioned-blocks
+- [[10]](https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B) Amazon Kindle Direct Publishing Fees https://kdp.amazon.com/en_US/help/topic/A29FL26OKE7R7B
+- [[11]](http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/) Amazon’s markup of digital delivery to indie authors is ~129,000% by Andrew Hyde http://andrewhy.de/amazons-markup-of-digital-delivery-to-indie-authors-is-129000/
+- [[12]](https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html) Spotify Reaches Settlement With Publishers in Licensing Dispute, New York Time March 17, 2016 https://www.nytimes.com/2016/03/18/business/media/spotify-reaches-settlement-with-publishers-in-licensing-dispute.html
+- [[13]](http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220) RootZoo sues Facebook over ad click dispute http://www.campaignlive.co.uk/article/rootzoo-sues-facebook-ad-click-dispute/920220
+- [[14]](https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ) Royalties in Kindle Unlimited and Kindle Owners' Lending Library https://kdp.amazon.com/en_US/help/topic/AI3QMVN4FMTXJ
+- [[15]](https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/) Amazon KDP Select authors are losing page reads, apparently due to software glitches by David VanDyke https://teleread.org/2016/10/08/amazon-kdp-select-authors-are-losing-page-reads-apparently-due-to-software-glitches/
+- [[16]](https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/) Do Amazon and Createspace rip off Indie publishers with failure to correctly report sales? https://jeanettevaughan.wordpress.com/2012/09/28/do-amazon-and-createspace-rip-off-indie-publishers-with-failure-to-correctly-report-sales/
+- [[17]](https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews) Historian Orlando Figes agrees to pay damages for fake reviews https://www.theguardian.com/books/2010/jul/16/orlando-figes-fake-amazon-reviews
+- [[18]](https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing) Wikipedia: Peer-to-peer file sharing https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing
+- [[19]](https://ipfs.io/) IPFS - A peer-to-peer hypermedia protocol https://ipfs.io/
 
-
-
-
-
-
-
+- [[20]](https://github.com/ethereum/wiki/wiki/Mining) Ethereum Mining https://github.com/ethereum/wiki/wiki/Mining
+- [[21]](https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake) Why Blockchain Needs ‘Proof of Authority’ Instead of ‘Proof of Stake’ https://cointelegraph.com/news/why-blockchain-needs-proof-of-authority-instead-of-proof-of-stake 
+- [[22]](https://tendermint.com/) Tendermint - Byzantine fault-tolerant replicated state machines in any programming language https://tendermint.com/
