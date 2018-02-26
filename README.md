@@ -1,8 +1,10 @@
 # Lightstreams Network
 
-[Lightstreams](http://lightstreams.network) is a distributed content publishing network. What makes Lightstreams unique is its authorisation protocol that allows owners of smart contracts to consent to others to access confidential or copyright data.
+[Lightstreams](http://lightstreams.network) is a blockchain based network with a unique an authorisation protocol for controlling access to private and confidential data including personal information or intellectual property.
 
 ## Run Client
+
+NOTE: The Test Network is currently down while we are migrating our validator nodes to new servers. Please bear with us.
 
 For now, a docker image has been created as the easiest way to run the lightstream client, with all the environment settings setup for you. If you don't have Docker installed on your machine follow these instructions [here](https://docs.docker.com/engine/installation/). 
 
