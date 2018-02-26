@@ -4,7 +4,7 @@
 
 ## Run Client
 
-NOTE: The Test Network is currently down while we are migrating our validator nodes to new servers. Please bear with us.
+<b>NOTE: The Test Network is currently down while we are migrating our validator nodes to new servers. Please bear with us. </b>
 
 For now, a docker image has been created as the easiest way to run the lightstream client, with all the environment settings setup for you. If you don't have Docker installed on your machine follow these instructions [here](https://docs.docker.com/engine/installation/). 
 
