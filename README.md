@@ -53,7 +53,7 @@ $ make install
 $ go get -u github.com/tendermint/tendermint/cmd/tendermint
 $ cd $GOPATH/src/github.com/tendermint/tendermint
 $ git reset --hard e236302256b8b0b75441e8e44c6d0d3f5b5152c6 
-$ go install ./cmd/tendermint
+$ make install
 ```
 
 Clone lightstreams 
