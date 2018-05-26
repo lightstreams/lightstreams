@@ -10,7 +10,7 @@ For now, a docker image has been created as the easiest way to run the lightstre
 
 Then run the following command:
 ```
-$ docker run -d --name device-1 -p 3001:3001 -e LOCALHOST="0.0.0.0:3001" lightstreams/lightstreams:v5
+$ docker run -d --name device-1 -p 3001:3001 -e LOCALHOST="0.0.0.0:3001" lightstreams/lightstreams:v6
 $ docker exec -it device-1 lightstreams-client run
 ```
 
@@ -23,7 +23,7 @@ http://0.0.0.0:3001/
 
 If you want to create another docker container running on the same machine to test selling content to another device, then:
 ```
-$ docker run -d --name device-2 -p 3002:3002 -e LOCALHOST="0.0.0.0:3002" lightstreams/lightstreams:v5
+$ docker run -d --name device-2 -p 3002:3002 -e LOCALHOST="0.0.0.0:3002" lightstreams/lightstreams:v6
 $ docker exec -it device-2 lightstreams-client run
 ```
 
