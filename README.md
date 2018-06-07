@@ -1,19 +1,16 @@
 **Note: Lightstreams' codebase is currently NOT Open Source. Below are instructions for running your own pre-compile Docker Image node that will connect to our Test Network**
 
-
-**** Test Network is currently down while we upgrade ****
-
 # Lightstreams Network
 
 [Lightstreams](http://lightstreams.network) is a blockchain network that provides decentralised applications (DApps) that need high performance and data privacy with the required support. We currently use Tendermint for transaction consensus and a Distributed Secure Storage Network based on IPFS that allows for digital contact to be only distributed to authorised nodes.
 
-## Run Client
+## Running local client connecting to our test network
 
 For now, a docker image has been created as the easiest way to run the lightstream client, with all the environment settings setup for you. If you don't have Docker installed on your machine follow these instructions [here](https://docs.docker.com/engine/installation/). 
 
 Then run the following command:
 ```
-$ docker run -d --name device-1 -p 3001:3001 -e LOCALHOST="0.0.0.0:3001" lightstreams/lightstreams:v6
+$ docker run -d --name device-1 -p 3001:3001 -e LOCALHOST="0.0.0.0:3001" lightstreams/lightstreams:v12
 $ docker exec -it device-1 lightstreams-client run
 ```
 
@@ -26,7 +23,7 @@ http://0.0.0.0:3001/
 
 If you want to create another docker container running on the same machine to test selling content to another device, then:
 ```
-$ docker run -d --name device-2 -p 3002:3002 -e LOCALHOST="0.0.0.0:3002" lightstreams/lightstreams:v6
+$ docker run -d --name device-2 -p 3002:3002 -e LOCALHOST="0.0.0.0:3002" lightstreams/lightstreams:v12
 $ docker exec -it device-2 lightstreams-client run
 ```
 
@@ -41,10 +38,12 @@ $ docker rm device-1
 $ docker rm device-2
 ```
 
-## Download the chain
+## Testing our blockchain
+
+[OPTIONAL] Not necessary for running local client only in case you would like to connect to our blockchain and verify it.
 
 Lightstreams uses the following clients for managing the Lightstreams blockchain
-- [Ethermint](https://github.com/tendermint/ethermint) - Is based on a folk of the Go-Ethereum (Geth) client
+- [Ethermint](https://github.com/tendermint/ethermint) - Is based on a fork of the Go-Ethereum (Geth) client
 - [Tendermint](https://github.com/tendermint/tendermint) - A consensus engine that used PoA instead of PoW
 
 Build from source the following versions
