@@ -1,7 +1,7 @@
 # Deprecated 
-**Note: Lightstreams' team is intensily working on a version to optimize the security and performance of our Test Network. Soon we will announce our progress in our [Blog](https://medium.com/lightstreams), if you have any questions we are working in providing prompt feedback throught our [Forum(https://discuss.lightstreams.network/)]**
+**Note: The project's repository has been change to: https://github.com/lightstreams-network**
 
-**Note: Lightstreams' codebase is currently NOT Open Source. Below are instructions for running your own pre-compile Docker Image node that will connect to our Test Network**
+THIS HAS BEEN DEPRECATED PLEASE SEE OUR NEW REPO: https://github.com/lightstreams-network
 
 # Lightstreams Network
 
